@@ -1,0 +1,26 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Some Javascript</title>
+</head>
+<body>
+	<script>
+		var points;
+		var length2;
+		var radius;
+		var circ;
+		var sides;
+		var repeat;
+
+		for (var count2 = 0; count2 < 100; count2++) {
+		  for (var count = 0; count < 8; count++) {
+		      moveForward(100);
+		    turnRight(45);
+		    moveForward(50);
+		    turnRight(90);
+		  }
+		  jumpTo(random([7,8,9,12,13,14,17,18,19]));
+		}
+	</script>
+</body>
+</html>
